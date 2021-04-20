@@ -1,0 +1,28 @@
+.access {
+    text-align: center;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-size: $font-sm;
+        margin-bottom: 30px;
+    }
+
+    &_image {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .access {
+        padding-top: 80px;
+        p{
+            font-size: $font-md;
+            max-width: 700px;
+            margin: auto;
+            padding-bottom: 70px;
+        }
+    }
+}

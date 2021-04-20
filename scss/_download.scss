@@ -1,0 +1,31 @@
+.download {
+    text-align: center;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    p{
+        font-size: $font-sm;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width:768px) {
+    .download {
+        padding-bottom: 80px;
+        p {
+            font-size: $font-md;
+            max-width: 700px;
+            margin: auto;
+        }
+    }
+    a {
+        display: inline-block;
+
+    }
+
+    a + a{
+        margin-left: 20px;
+    }
+}
